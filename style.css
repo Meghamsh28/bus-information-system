@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #003366;
+    text-align: center;
+}
+
+/* Menu styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #0066cc;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #004c99;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+}
+
+/* Form styling */
+form {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #004c99;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
