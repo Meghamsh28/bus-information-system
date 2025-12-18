@@ -105,7 +105,11 @@ img {
 }
 
 /* ===== Highlight Text ===== */
+/* Remove highlight from <mark> tag */
 mark {
-    background-color: yellow;
+    background-color: transparent;
+    color: inherit;
     font-weight: bold;
 }
+
+
